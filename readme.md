@@ -39,7 +39,7 @@ The project begins with background information on Fisher and the Iris Data Set. 
 
 ## **Executing the python programs
 
-1. In the [repository page 52445_19_iris](https://github.com/fionaoriordan/52445_19_iris) click on Download Zip ![download Zip](image file required).
+1. In the [repository page 52445_19_iris](https://github.com/fionaoriordan/52445_19_iris/blob/master/iris_with_labels.jpg) click on Download Zip ![download Zip](image file required).
 1. Once the repository has been saved to your downloads folder locally, then move to your desktop.
 1. Launch your Command Line Interface (see above).
 1. Open the Desktop directory with command: cd Desktop
