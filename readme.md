@@ -2,6 +2,10 @@
 # **Module 52445 Programming and Scripting
 # **Project Iris Data Set
 
+![versicolor image](https://github.com/fionaoriordan/52445_19_iris/blob/master/220px-Iris_versicolor_3.jpg)
+![virginica image](https://github.com/fionaoriordan/52445_19_iris/blob/master/220px-Iris_virginica.jpg)
+![setosa image](https://github.com/fionaoriordan/52445_19_iris/blob/master/setosaimage.jpg)
+
 Due Date: 28th April 2019
 
 ## **Introduction**
@@ -17,7 +21,8 @@ The project begins with background information on Fisher and the Iris Data Set. 
 ### **The Iris Data Set Creation**
  Dr. E. Anderson collected the Iris data which Fisher then used in his 1936 Analysis [2].  The data set contains 3 classes with each class representing a type of Iris flower specie [2]. The first two species Iris setosa and Iris versicolor were found growing together [2], while the third species, Iris Virginica separately was found separately [2]. For each class, 50 samples were collected.
 
- The data set is a multivariate data set and has four features/attributes for each sample/observation. The four attributes were measured for each sample collected: the length and the width of the sepals and petals, in centimetres. This ![Iris image](52445_19_iris/iris_with_labels.jpg) shows the petal and sepal components of an Iris flower[5]
+ The data set is a multivariate data set and has four features/attributes for each sample/observation. The four attributes measured for each sample collected were the length and the width of the sepals and petals in centimetres. This iris image ![Iris image](https://github.com/fionaoriordan/52445_19_iris/blob/master/iris_with_labels.jpg) 
+ shows the petal and sepal components of an Iris flower[5]
  
  
 
@@ -31,9 +36,8 @@ The project begins with background information on Fisher and the Iris Data Set. 
 
 ## **To Download the Iris Data Set**
 1. In your internet browser open [Kaggle.com Iris Data Set](https://www.kaggle.com/uciml/iris). 
-1. Click on the link ![Download4KB](52445_19_iris/kaggleirisdownload.png).
+1. Click on the link ![Download4KB](https://github.com/fionaoriordan/52445_19_iris/blob/master/kaggleirisdownload.png).
 1. Register with site.
-1. Click on the link ![Download4KB](52445_19_iris/kaggleirisdownload.png).
 1. Open the now downloaded folder 'iris-species' in your Downloads folder on your computer.
 1. You can now view the Iris Data set by clicking on the Iris.csv file.
 
