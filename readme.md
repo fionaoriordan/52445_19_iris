@@ -17,7 +17,7 @@ The project begins with background information on Fisher and the Iris Data Set. 
 ### **The Iris Data Set Creation**
  Dr. E. Anderson collected the Iris data which Fisher then used in his 1936 Analysis [2].  The data set contains 3 classes with each class representing a type of Iris flower specie [2]. The first two species Iris setosa and Iris versicolor were found growing together [2], while the third species, Iris Virginica separately was found separately [2]. For each class, 50 samples were collected.
 
- The data set is a multivariate data set and has four features/attributes for each sample/observation. The four attributes were measured for each sample collected: the length and the width of the sepals and petals, in centimetres. This ![Iris image](/52445_19_iris/iris_with_labels.jpg) shows the petal and sepal components of an Iris flower[5]
+ The data set is a multivariate data set and has four features/attributes for each sample/observation. The four attributes were measured for each sample collected: the length and the width of the sepals and petals, in centimetres. This ![Iris image](52445_19_iris/iris_with_labels.jpg) shows the petal and sepal components of an Iris flower[5]
  
  
 
