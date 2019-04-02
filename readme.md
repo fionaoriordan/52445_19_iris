@@ -1,37 +1,43 @@
-#**Fiona O'Riordan 28 March 2019
-#**Module 52445 Programming and Scripting
-#**Project Iris Data Set
+# **Fiona O'Riordan 28 March 2019
+# **Module 52445 Programming and Scripting
+# **Project Iris Data Set
 
 Due Date: 28th April 2019
 
-##**Introduction**
+## **Introduction**
 This repository, 52445_proj_19 , is my submission for Project 2019, module 52445 Programming and Scripting.  The project is an exploration of Fisher’s Iris data set [1] including research on the data set, documentation and code in the Python programming language [2] based on that research.  
 
-The project begins with background information on Fisher and the Iris Data Set.  Next, the prerequisites to using the python code within this project will be outlined. A list of contents of the repository will be provided including each of the python programs created for this project coupled with a brief overview of each of the scripts listed.  Instructions on how to execute the python code will also be detailed.  A summary of the data set and a summary of the project will be set out.  Lastly, appropriate references used throughout will be documented.
+The project begins with background information on Fisher and the Iris Data Set.  Next, the prerequisites to using the python code within this project will be outlined. A list of contents of the repository will be provided including each of the python programs created for this project coupled with a brief overview of each of the scripts listed.  Instructions on how to execute the python code will also be detailed.  An exploratory data analysis summarizing the dataset will be included.  Lastly, appropriate references used throughout will be documented.
 
 
-##**Background**
+## **Background**
 
-###**Fisher**
+### **Fisher**
 [1]
-###**The Iris Data Set Creation**
-[2]
+### **The Iris Data Set Creation**
+ Dr. E. Anderson collected the Iris data which Fisher then used in his 1936 Analysis [2].  The data set contains 3 classes with each class representing a type of Iris flower specie [2]. The first two species Iris setosa and Iris versicolor were found growing together [2], while the third species, Iris Virginica separately was found separately [2]. For each class, 50 samples were collected.
 
-###**Fisher’s Analysis of the Iris Data Set**
-The data set contains 3 classes with each class representing a type of Iris plant [3].  Within each class there are 50 instances [3].  Fisher found that one class is linearly separable from the other two classes[3]. While the other two classes are not linearly separable from each other [3].
+ The data set is a multivariate data set and has four features/attributes for each sample/observation. The four attributes were measured for each sample collected: the length and the width of the sepals and petals, in centimetres. This ![Iris image](/52445_19_iris/iris_with_labels.jpg) shows the petal and sepal components of an Iris flower[5]
+ 
+ 
+
+### **Fisher’s Analysis of the Iris Data Set**
+ Fisher's analysis was published in The Use of Multiple Measurements in Taxonomic Problems, 1936 [2].  Fisher found that one class is linearly separable from the other two classes[3]. While the other two classes are not linearly separable from each other [3].
 
 
 ‘One class is linearly separable from the other 2; the latter are NOT linearly separable from each other’ [3] (https://archive.ics.uci.edu/ml/datasets/iris).  Define ‘Linear Separability’[4]
-‘Linear separability refers to the fact that classes of patterns with -dimensional vector  can be separated with a single decision surface. In the case above, the line  represents the decision surface.
-’
+‘Linear separability refers to the fact that classes of patterns with -dimensional vector  can b e separated with a single decision surface. In the case above, the line  represents the decision surface.
 
 
+## **To Download the Iris Data Set**
+1. In your internet browser open [Kaggle.com Iris Data Set](https://www.kaggle.com/uciml/iris). 
+1. Click on the link ![Download4KB](52445_19_iris/kaggleirisdownload.png).
+1. Register with site.
+1. Click on the link ![Download4KB](52445_19_iris/kaggleirisdownload.png).
+1. Open the now downloaded folder 'iris-species' in your Downloads folder on your computer.
+1. You can now view the Iris Data set by clicking on the Iris.csv file.
 
-##**Prerequisites**
-Not sure I need? 
-
-
-## Executing the python programs
+## **Executing the python programs
 
 1. In the [repository page 52445_19_iris](https://github.com/fionaoriordan/52445_19_iris) click on Download Zip ![download Zip](image file required).
 1. Once the repository has been saved to your downloads folder locally, then move to your desktop.
@@ -41,7 +47,23 @@ Not sure I need?
 1. To run a script type python followed by the script name at the command line prompt e.g. python .py
 1  script specific instructions…
 
-##**References**
+## **Exploratory Data Analysis
 
+This sections seeks to analyse the iris data set using python and produce a clear understanding of the dataset.
+
+4. Summarise the data set by, for example, calculating the maximum, minimum and mean of each column of the data set. A Python script will quickly do this for you.
+5. Write a summary of your investigations.
+6. Include supporting tables and graphics as you deem necessary.
+
+1. A statiscal summary of the dataset is generated by desciris.py.
+
+
+
+
+
+
+##**References**
+2. http://rcs.chemometrics.ru/Tutorials/classification/Fisher.pdf
 3. https://archive.ics.uci.edu/ml/datasets/iris
 4. http://www.ece.utep.edu/research/webfuzzy/docs/kk-thesis/kk-thesis-html/node19.html
+5. https://www.math.umd.edu/~petersd/666/html/iris_pca.html
