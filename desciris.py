@@ -17,14 +17,11 @@ names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'class']
 # read in the iris.csv now saved locally, assign the names created above to the data as the attribute names/column headings.
 iris = pd.read_csv("iris.csv",names=names)
 
-# Create a statistical summary 
-irisdesc = iris.describe()
+# Create a statistical summary and print to the screen
+print(iris.describe())
 
-# create a txt file called "descirisoutput.txt" and write the iris description to the file overwriting any existing output.
-# with open("descirisoutput.csv","w") as f:
-#     f.write(str(irisdesc)
-# Commented out the above and used to_csv instead as then I could use sep=',' and then the output data can be separated into columns.
-irisdesc.to_csv("descirisoutput.csv", sep=',')
+# Using to_csv to write the iris description to an output file with  separator ',' to separate the data into columns
+iris.describe().to_csv("descirisoutput.csv", sep=',')
    
 
 
