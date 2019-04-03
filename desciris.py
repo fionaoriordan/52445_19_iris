@@ -19,13 +19,15 @@ iris = pd.read_csv("iris.csv",names=names)
 
 # Create a statistical summary 
 irisdesc = iris.describe()
-print(irisdesc,'\n')
+
+# create a txt file called "descirisoutput.txt" and write the iris description to the file overwriting any existing output.
+# with open("descirisoutput.csv","w") as f:
+#     f.write(str(irisdesc)
+# Commented out the above and used to_csv instead as then I could use sep=',' and then the output data can be separated into columns.
+irisdesc.to_csv("descirisoutput.csv", sep=',')
+   
 
 
-# create a txt file called "descirisoutput.txt" and write the iris description to the file
-with open("descirisoutput.csv","w") as f:
-      f.write(str(irisdesc))
-      
 
 
 
