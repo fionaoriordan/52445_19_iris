@@ -34,7 +34,7 @@ The project begins with background information on Fisher and the Iris Data Set. 
  Fisher's analysis was published in The Use of Multiple Measurements in Taxonomic Problems, 1936 [2].  Fisher found that one class is linearly separable from the other two classes[3]. While the other two classes are not linearly separable from each other [3]. The dataset is infamous in the computer science field of pattern recognition [3]. 'Pattern recognition is one of the four cornerstones of Computer Science. It involves finding the similarities or patterns among small, decomposed problems that can help us solve more complex problems more efficiently' Verbatim(https://www.bbc.com/bitesize/guides/zxxbgk7/revision/1).
 
 
-‘One class is linearly separable from the other 2; the latter are NOT linearly separable from each other’ [3] (https://archive.ics.uci.edu/ml/datasets/iris).  Define ‘Linear Separability’[4]
+Class Setosa is linearly separable from classes Virginica and Vertosa. However, the classes Virginica and Vertosa are NOT linearly separable from each other [3] (https://archive.ics.uci.edu/ml/datasets/iris).  Define ‘Linear Separability’[4]
 ‘Linear separability refers to the fact that classes of patterns with -dimensional vector  can b e separated with a single decision surface. In the case above, the line  represents the decision surface.
 
 
@@ -57,20 +57,21 @@ The project begins with background information on Fisher and the Iris Data Set. 
 
 ## **Exploratory Data Analysis
 
-This sections seeks to analyse the iris data set using python and produce a clear understanding of the dataset.
+This sections seeks to analyse the iris data set using python and produce a clear understanding of the data set.
 
 * Summarise the data set by, for example, calculating the maximum, minimum and mean of each column of the data set. A Python script will quickly do this for you.
 *  Write a summary of your investigations.
 *  Include supporting tables and graphics as you deem necessary.
-
-1. shapeiris.py shows 
+# **Overview 
+1. shapeiris.py shows the iris data set/table has 150 rows and 5 columns:
 ![Shape](https://github.com/fionaoriordan/52445_19_iris/blob/master/shapeimage.png)
 
-1. classiris.py shows
-![Count by Class](https://github.com/fionaoriordan/52445_19_iris/blob/master/countclassimage.png)
 
-1. columnsiris.py shows
+1. columnsiris.py shows the names of the 5 columns. The first four are attributes/variables collected by Anderson. The last column 'class' :
 ![Columns iris](https://github.com/fionaoriordan/52445_19_iris/blob/master/columnsimage.png)
+
+1. classiris.py shows how many data points for each class are in the data set/table. This is called a balanced dataset . A balanced dataset is a dataset where 
+![Count by Class](https://github.com/fionaoriordan/52445_19_iris/blob/master/countclassimage.png)
 
 1. desciris.py generates a statiscal summary of the dataset:
 
@@ -78,6 +79,16 @@ This sections seeks to analyse the iris data set using python and produce a clea
 
 To view as in a table click on:
 [Statisical Summary Table](https://github.com/fionaoriordan/52445_19_iris/blob/master/descirisoutput.csv)
+
+
+# **2-D scatter plot:
+
+
+iris.plot(kind='scatter', x='sepal_length', y='sepal_width') ;
+plt.show()
+
+However, this is not helpful as we cannot decipher the class labels.
+#What if we color the points by their class-label/flower-type??
 
 
 
