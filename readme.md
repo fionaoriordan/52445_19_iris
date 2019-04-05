@@ -19,9 +19,9 @@ The project begins with background information on Fisher and the Iris Data Set. 
 ### **Fisher**
 [1]
 ### **The Iris Data Set Creation**
- Dr. E. Anderson collected the Iris data which Fisher then used in his 1936 Analysis [2].  The data set contains 3 classes with each class representing a type of Iris flower specie [2]. The first two species Iris setosa and Iris versicolor were found growing together [2], while the third species, Iris Virginica separately was found separately [2]. For each class, 50 samples were collected.
+ Botantist Dr. E. Anderson collected the Iris data which Fisher then used famously in his 1936 Analysis [2].  The data set contains 3 classes with each class representing a type of Iris flower specie[2]. The first two species Iris setosa and Iris versicolor were found growing together [2], while the third species, Iris Virginica separately was found separately [2]. For each class, 50 samples were collected.
 
- The data set is a multivariate data set and has four variables/features/attributes for each sample/observation. The four variables measured for each sample collected were:
+ The data set is a multivariate data set and has four variables/features/attributes for each flower picked. The four variables measured for each sample collected were:
    1. sepal length in cm
    1. sepal width in cm
    1. petal length in cm
@@ -67,18 +67,23 @@ This sections seeks to analyse the iris data set using python and produce a clea
 ![Shape](https://github.com/fionaoriordan/52445_19_iris/blob/master/shapeimage.png)
 
 
-1. columnsiris.py shows the names of the 5 columns. The first four are attributes/variables collected by Anderson. The last column 'class' :
+1. columnsiris.py shows the names of the 5 columns. The first four are attributes/variables collected by Anderson. The last column 'class' stores the iris flower class. Classes are  :
+
 ![Columns iris](https://github.com/fionaoriordan/52445_19_iris/blob/master/columnsimage.png)
 
-1. classiris.py shows how many data points for each class are in the data set/table. This is called a balanced dataset . A balanced dataset is a dataset where 
+1. classiris.py shows how many data points for each class are in the data set/table. The Iris data set is a balanced data set as each class is equally represented in the data set. There are 50 data points for each class.
+
 ![Count by Class](https://github.com/fionaoriordan/52445_19_iris/blob/master/countclassimage.png)
 
-1. desciris.py generates a statiscal summary of the dataset:
+1. desciris.py generates a statiscal summary of the dataset. For each of the four variables/columns the mean (average value), std (a value representing by how much the data of a variable differs from the mean value of that variable), min (the minimum value of the variable), max (the maximum value of the variable) and the percentiles 25%, 50% and 75% ( the nth percentile is the lowest value that is greater than n% of the values in a particular attribute)[8].  The output also shows that there are no missing values in any of the columns since all variables have a count = 150. 
 
 ![Desc Iris Screenshot](https://github.com/fionaoriordan/52445_19_iris/blob/master/descirisshot.png)
 
-To view as in a table click on:
+To view in a searchable table click on:
+
 [Statisical Summary Table](https://github.com/fionaoriordan/52445_19_iris/blob/master/descirisoutput.csv)
+
+ 
 
 
 # **2-D scatter plot:
@@ -102,3 +107,5 @@ However, this is not helpful as we cannot decipher the class labels.
 5. https://www.math.umd.edu/~petersd/666/html/iris_pca.html
 6. http://www.twofrog.com/irissetosa.html
 7. https://en.wikipedia.org/wiki/Iris_flower_data_set
+8. https://www.statisticshowto.datasciencecentral.com/9. probability-and-statistics/percentiles-rank-range/
+9. https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.describe.html
