@@ -19,7 +19,48 @@ iris = pd.read_csv("iris.csv", names=names)
 
 # create a histogram for all the 4 variables 
 # the default number of bins =10 but set the number of bins = 20 so that we can see the data grouped into smaller ranges.
-plt.hist(bins=20)
+# plt.hist(bins=20)
+
+# creating the histograms for all 4 variables distinctly so that I can label 
+# and color each chart distinctly
+
+
+plt.figure('Histogram1')
+plt.subplot(2,2,1)
+iris['petal-width'].hist(bins=20)
+# x axis is from 0 to 5, y axis is from 0 to 18 with intervals of 1
+# create an x axis label
+plt.xlabel('range')
+# create a y axis label
+plt.ylabel('frequency')
+plt.title('petal-width')
+
+
+plt.subplot(2,2,2)
+iris['petal-width'].hist(bins=20, color='green')
+# x axis is from 0 to 5, y axis is from 0 to 18 with intervals of 1
+# create an x axis label
+plt.xlabel('range')
+# create a y axis label
+plt.title('petal-length')
+
+plt.subplot(2,2,3)
+iris['sepal-length'].hist(bins=20, color='Red')
+# create x axis label
+plt.xlabel('range')
+# create an y axis label
+plt.ylabel('frequency')
+plt.title('sepal-length')
+
+plt.subplot(2,2,4)
+iris['sepal-width'].hist(bins=20, color ='orange')
+# create an x axis label
+plt.xlabel('range')
+# create an y axis label
+plt.ylabel('frequency')
+plt.title('sepal-width')
+
+
 # generate a file to output the graph
 plt.show()
 
