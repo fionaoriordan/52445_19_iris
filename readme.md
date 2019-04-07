@@ -75,6 +75,12 @@ This sections seeks to analyse the iris data set using python and produce a clea
 
 ![Count by Class](https://github.com/fionaoriordan/52445_19_iris/blob/master/countclassimage.png)
 
+1. headtailiris5.py shows the first and last 5 rows of the data set including the names assigned to each of the variables and the class. 
+![Headtail image](https://github.com/fionaoriordan/52445_19_iris/blob/master/imgheadtail5.png)
+
+Click here to view the [first 5 rows] in a searchable table(https://github.com/fionaoriordan/52445_19_iris/blob/master/head5irisout.csv)
+Click here to view the [last 5 rows] in searchable table(https://github.com/fionaoriordan/52445_19_iris/blob/master/tail5irisout.csv)
+
 1. desciris.py generates a statiscal summary of the dataset. For each of the four variables/columns the mean (average value), std (a value representing by how much the data of a variable differs from the mean value of that variable), min (the minimum value of the variable), max (the maximum value of the variable) and the percentiles 25%, 50% and 75% ( the nth percentile is the lowest value that is greater than n% of the values in a particular attribute)[8].  The output also shows that there are no missing values in any of the columns since all variables have a count = 150. 
 
 ![Desc Iris Screenshot](https://github.com/fionaoriordan/52445_19_iris/blob/master/descirisshot.png)
