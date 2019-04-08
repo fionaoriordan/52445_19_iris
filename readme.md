@@ -73,10 +73,9 @@ This sections seeks to analyse the iris data set using python and produce a clea
 
 1. classiris.py shows how many data points for each class are in the data set/table. The Iris data set is a balanced data set as each class is equally represented in the data set. There are 50 data points for each class.
 
-![Count by Class](https://github.com/fionaoriordan/52445_19_iris/blob/master/countclassimage.png)
+1. ![Count by Class](https://github.com/fionaoriordan/52445_19_iris/blob/master/countclassimage.png)
 
-1. headtailiris5.py shows the first and last 5 rows of the data set including the names assigned to each of the variables and the class. 
-![Headtail image](https://github.com/fionaoriordan/52445_19_iris/blob/master/imgheadtail5.png)
+1. headtailiris5.py shows the first and last 5 rows of the data set including the names assigned to each of the variables and the class.  ![Headtail image](https://github.com/fionaoriordan/52445_19_iris/blob/master/imgheadtail5.png)
 
 Click here to view the [first 5 rows] in a searchable table(https://github.com/fionaoriordan/52445_19_iris/blob/master/head5irisout.csv)
 Click here to view the [last 5 rows] in searchable table(https://github.com/fionaoriordan/52445_19_iris/blob/master/tail5irisout.csv)
@@ -88,6 +87,23 @@ Click here to view the [last 5 rows] in searchable table(https://github.com/fion
 To view in a searchable table click on:
 
 [Statisical Summary Table](https://github.com/fionaoriordan/52445_19_iris/blob/master/descirisoutput.csv)
+
+ 
+1. Using python script irishist.py, we can see an approximate frequency distribution of each of the quantitative variables in the set i.e. how often each different value of the variables occurs (See Histogram1) [11, 12, 13]. Unlike variables sepal-width and sepal-length, we can see variables 'petal-width' and 'petal-length' could be interpreted as a bimodal distribution. A bimodal distribution is a distribution where there are two peaks [13]  This is interesting because it suggests there may be two distinct populations in the data set. 
+![Histogram1](https://github.com/fionaoriordan/52445_19_iris/blob/master/Histogram1.png)
+
+Similary, generating a scatter plot matrix 
+
+However, we do know from classiris.py that we have 3 classes, namely Iris setosa, Iris versicolora and Iris virginica, in the data set. Therefore, the next step is to investigate the variables 'petal-width' and 'petal-length' more closely by including the classes in a histogram. 
+
+Using histpetalclass.py [14](note: enter the py script name and the attribute name to run the report e.g. python histpetalclass.py 'petal-length'.), we can see that for variable petal-width class and petal-length the class/flowers Iris-setosa are clearly distinguished from Iris Versicolor and Iris Viginica. 
+![Histogram petal-width by class](https://github.com/fionaoriordan/52445_19_iris/blob/master/Hist_petal-width.png)
+![Histogram petal-length by class](https://github.com/fionaoriordan/52445_19_iris/blob/master/Hist_petal-length.png)
+
+However, when we run classiris.py for sepal-width and again for sepal-length, we notice that no such distinction exists. The measurements for all three classes overlap and we cannot distinguish between the three classes.
+
+![Histogram sepal-width by class](https://github.com/fionaoriordan/52445_19_iris/blob/master/Hist_sepal-width.png)
+![Histogram sepal-length by class](https://github.com/fionaoriordan/52445_19_iris/blob/master/Hist_sepal-length.png)
 
  
 
@@ -115,3 +131,8 @@ However, this is not helpful as we cannot decipher the class labels.
 7. https://en.wikipedia.org/wiki/Iris_flower_data_set
 8. https://www.statisticshowto.datasciencecentral.com/9. probability-and-statistics/percentiles-rank-range/
 9. https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.describe.html
+10. https://asq.org/quality-resources/histogram#types
+11. https://www.youtube.com/watch?v=r75BPh1uk38
+12. https://www.youtube.com/watch?v=J_k8_hA-KUE
+13. https://en.wikipedia.org/wiki/Multimodal_distribution
+14. https://www.machinelearningplus.com/plots/matplotlib-histogram-python-examples/
