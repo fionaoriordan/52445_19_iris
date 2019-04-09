@@ -105,7 +105,7 @@ However, when we run classiris.py for sepal-width and again for sepal-length, we
 ![Histogram sepal-width by class](https://github.com/fionaoriordan/52445_19_iris/blob/master/Hist_sepal-width.png)
 ![Histogram sepal-length by class](https://github.com/fionaoriordan/52445_19_iris/blob/master/Hist_sepal-length.png)
 
- 
+![Pairplot of all variables with colour indicating class](https://github.com/fionaoriordan/52445_19_iris/blob/master/imgpairplot.png)
 
 
 # **2-D scatter plot:
