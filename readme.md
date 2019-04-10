@@ -11,7 +11,7 @@ Due Date: 28th April 2019
 ## **Introduction**
 This repository, 52445_proj_19 , is my submission for Project 2019, module 52445 Programming and Scripting.  The project is an exploration of Fisher’s Iris data set [1] including research on the data set, documentation and code in the Python programming language [2] based on that research.  
 
-The project begins with background information on Fisher and the Iris Data Set.  Next, the prerequisites to using the python code within this project will be outlined. A list of contents of the repository will be provided including each of the python programs created for this project coupled with a brief overview of each of the scripts listed.  Instructions on how to execute the python code will also be detailed.  An exploratory data analysis summarizing the dataset will be included.  Lastly, appropriate references used throughout will be documented.
+The project begins with background information on Fisher and the Iris Data Set.  Next, the prerequisites to using the python code within this project will be outlined. A list of contents of the repository will be provided including each of the python programs created for this project coupled with a brief overview of each of the scripts listed.  Instructions on how to execute the python code will also be detailed.  An exploratory data analysis summarizing the iris data set will be included.  Lastly, appropriate references used throughout will be documented.
 
 
 ## **Background**
@@ -39,28 +39,24 @@ So while we can acknowledge and benefit from much of Fisher's work as a statisti
  
 
 ### **Fisher’s Analysis of the Iris Data Set**
-Fisher's analysis was published in The Use of Multiple Measurements in Taxonomic Problems, 1936 [2].  Fisher found that class Iris Setosa is linearly separable from the other two classes Iris Virginica and Iris Vertosa [3]. While the later two classes are not linearly separable from each other [3]. Two classes are linearly separable when a line connecting a series of points can be draw between classes projected on to a surface[3a].![Example of Linear Separability](https://github.com/fionaoriordan/52445_19_iris/blob/master/linearlyseparable.png)
+Fisher's analysis was published in The Use of Multiple Measurements in Taxonomic Problems, 1936 [2].  Fisher found that class Iris Setosa is linearly separable from the other two classes Iris Virginica and Iris Vertosa [3]. While the later two classes are not linearly separable from each other [3]. Two classes are linearly separable when a line connecting a series of points can be draw between classes projected on to a surface[3a]. This chart shows how an example of gender classification is linearly separable based on height and weight: ![Example of Linear Separability](https://github.com/fionaoriordan/52445_19_iris/blob/master/linearlyseparable.png)
 
-The dataset is infamous in the computer science field of pattern recognition [3]. 'Pattern recognition is one of the four cornerstones of Computer Science. It involves finding the similarities or patterns among small, decomposed problems that can help us solve more complex problems more efficiently'[3b].
-
-
+The iris dataset is infamous in the computer science field of pattern recognition [3]. 'Pattern recognition is one of the four cornerstones of Computer Science. It involves finding the similarities or patterns among small, decomposed problems that can help us solve more complex problems more efficiently'[3b].
 
 ## **To Download the Iris Data Set**
-1. In your internet browser open [Kaggle.com Iris Data Set](https://www.kaggle.com/uciml/iris). 
-1. Click on the link ![Download4KB](https://github.com/fionaoriordan/52445_19_iris/blob/master/kaggleirisdownload.png).
-1. Register with site.
-1. Open the now downloaded folder 'iris-species' in your Downloads folder on your computer.
-1. You can now view the Iris Data set by clicking on the Iris.csv file.
+1. In your internet browser open https://archive.ics.uci.edu/ml/machine-learning-databases/iris/
+1. Click on iris.data and the data set will be saved to your Downloads folder.
+1. Save the file as iris.csv file.
+1. Now open iris.csv in Excel (Windows) or Numbers(Mac)
 
 ## **Executing the python programs
 
 1. In the [repository page 52445_19_iris](https://github.com/fionaoriordan/52445_19_iris/blob/master/iris_with_labels.jpg) click on Download Zip ![download Zip](image file required).
 1. Once the repository has been saved to your downloads folder locally, then move to your desktop.
-1. Launch your Command Line Interface (see above).
+1. Launch your Command Line Interface.
 1. Open the Desktop directory with command: cd Desktop
 1. Open the folder 52445_19_iris with command: cd 52445_19_iris
 1. To run a script type python followed by the script name at the command line prompt e.g. python .py
-1  script specific instructions…
 
 ## **Exploratory Data Analysis
 
@@ -87,7 +83,7 @@ This sections seeks to analyse the iris data set using python and produce a clea
 Click here to view the [first 5 rows] in a searchable table(https://github.com/fionaoriordan/52445_19_iris/blob/master/head5irisout.csv)
 Click here to view the [last 5 rows] in searchable table(https://github.com/fionaoriordan/52445_19_iris/blob/master/tail5irisout.csv)
 
-1. A statistical summary of the iris dataset is generated by  desciris.py. For each of the four variables/attributes the mean (average value), std (a value representing by how much the data of a variable differs from the mean value of that variable), min (the minimum value of the variable), max (the maximum value of the variable) and the percentiles 25%, 50% and 75% ( the nth percentile is the lowest value that is greater than n% of the values in a particular attribute)[8].  The output also shows that there are no missing values in any of the columns since all variables have a count = 150.  ![Desc Iris Screenshot](https://github.com/fionaoriordan/52445_19_iris/blob/master/descirisshot.png)
+1. A statistical summary of the iris data set is generated by  desciris.py. For each of the four variables/attributes the mean (average value), std (a value representing by how much the data of a variable differs from the mean value of that variable), min (the minimum value of the variable), max (the maximum value of the variable) and the percentiles 25%, 50% and 75% ( the nth percentile is the lowest value that is greater than n% of the values in a particular attribute)[8].  The output also shows that there are no missing values in any of the columns since all variables have a count = 150.  ![Desc Iris Screenshot](https://github.com/fionaoriordan/52445_19_iris/blob/master/descirisshot.png)
 To view in a searchable table click on: [Statisical Summary Table](https://github.com/fionaoriordan/52445_19_iris/blob/master/descirisoutput.csv)
  1.An approximate frequency distribution of each of the quantitative variables in the set is generated by python script irishist.py.  How often each different value of the variables occurs is plotted(See Histogram1) [11, 12, 13]. Unlike variables sepal-width and sepal-length, we can see variables 'petal-width' and 'petal-length' could be interpreted as a bimodal distribution. A bimodal distribution is a distribution where there are two peaks [13]  This is interesting because it suggests there may be two distinct populations in the data set.![Histogram1](https://github.com/fionaoriordan/52445_19_iris/blob/master/Histogram1.png)
 1. Similary, generating a scatter plot matrix for all of the variables shows when using petal_width and petal_length a distinction within the data set is suggested. 
