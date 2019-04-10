@@ -24,7 +24,7 @@ iris = pd.read_csv("iris.csv", names=names)
 # creating the histograms for all 4 variables distinctly so that I can label 
 # and color each chart distinctly
 
-
+# name the output file 
 plt.figure('Histogram1')
 plt.subplot(2,2,1)
 iris['petal-width'].hist(bins=20)
@@ -37,7 +37,7 @@ plt.title('petal-width')
 
 
 plt.subplot(2,2,2)
-iris['petal-width'].hist(bins=20, color='green')
+iris['petal-width'].hist(bins=20)
 # x axis is from 0 to 5, y axis is from 0 to 18 with intervals of 1
 # create an x axis label
 plt.xlabel('range')
@@ -45,7 +45,7 @@ plt.xlabel('range')
 plt.title('petal-length')
 
 plt.subplot(2,2,3)
-iris['sepal-length'].hist(bins=20, color='Red')
+iris['sepal-length'].hist(bins=20)
 # create x axis label
 plt.xlabel('range')
 # create an y axis label
@@ -53,7 +53,7 @@ plt.ylabel('frequency')
 plt.title('sepal-length')
 
 plt.subplot(2,2,4)
-iris['sepal-width'].hist(bins=20, color ='orange')
+iris['sepal-width'].hist(bins=20)
 # create an x axis label
 plt.xlabel('range')
 # create an y axis label
