@@ -17,9 +17,16 @@ The project begins with background information on Fisher and the Iris Data Set. 
 ## **Background**
 
 ### **Fisher**
-[1]
+Sir Ronald Aylmer Fisher (1890 - 1962) was a British mathematician , statistician, evolutionary biologist and geneticist. Fisher's book the Genetical Theory of Natural Selection (1930) proved that Mendelian genetics is an essential underlying mechanism of Darwiniam evolution. His work is widely acknowledged as laying the foundations for statistical analysis in the life sciences.[1]
+
+However, Fisher is also unfortunately famously known for his deeply held belief in and role in the Eugenics movement. The term eugenic was devised by Francis Galton (1883) to denote “well born” (cited in Shakespeare, 2008: 22) [1b].  
+
+Proponents of eugenics believed that social advantage had a genetic hereditary basis. Society would benefit by ‘checking’ the reproduction of the ‘bad’, whilst promoting reproduction in the ‘good’ (Galton, 1869:41).  Twentieth century actual implementations of eugenic thinking included forced sterilization in the US, UK and some Scandinavian countries (Kerr and Shakespeare, 2002, Barnes and Mercer, 2003).  The ultimate extreme of eugenic thinking was actualised in Nazi Germany when an estimated 250,000 disabled people and social undesirables were systematically murdered (Barnes and Mercer, 2003).
+
+So while we can acknowledge and benefit from Fisher's work as a statistician, it is salient to remember science is not created or used in a social or moral vacuum. 
+
 ### **The Iris Data Set Creation**
- Botantist Dr. E. Anderson collected the Iris data which Fisher then used famously in his 1936 Analysis [2].  The data set contains 3 classes with each class representing a type of Iris flower specie[2]. The first two species Iris setosa and Iris versicolor were found growing together [2], while the third species, Iris Virginica separately was found separately [2]. For each class, 50 samples were collected.
+ Botantist Dr. E. Anderson collected the Iris data which Fisher then used in his 1936 Analysis [2].  
 
  The data set is a multivariate data set and has four variables/features/attributes for each flower picked. The four variables measured for each sample collected were:
    1. sepal length in cm
@@ -27,14 +34,15 @@ The project begins with background information on Fisher and the Iris Data Set. 
    1. petal length in cm
    1. petal width in cm
   This iris image shows the petal and sepal components of an Iris flower[5]![Iris image](https://github.com/fionaoriordan/52445_19_iris/blob/master/iris_with_labels.jpg) 
- 
+
+  The data set contains 3 classes with each class representing a type of Iris flower specie[2]. The first two species Iris setosa and Iris versicolor were found growing together [2], while the third specie, Iris Virginica separately was found separately [2]. For each class, 50 samples were collected. Therefore 150 separate observations were recorded.
  
 
 ### **Fisher’s Analysis of the Iris Data Set**
  Fisher's analysis was published in The Use of Multiple Measurements in Taxonomic Problems, 1936 [2].  Fisher found that one class is linearly separable from the other two classes[3]. While the other two classes are not linearly separable from each other [3]. The dataset is infamous in the computer science field of pattern recognition [3]. 'Pattern recognition is one of the four cornerstones of Computer Science. It involves finding the similarities or patterns among small, decomposed problems that can help us solve more complex problems more efficiently' Verbatim(https://www.bbc.com/bitesize/guides/zxxbgk7/revision/1).
 
 
-Class Setosa is linearly separable from classes Virginica and Vertosa. However, the classes Virginica and Vertosa are NOT linearly separable from each other [3] (https://archive.ics.uci.edu/ml/datasets/iris).  Define ‘Linear Separability’[4]
+Specie Setosa is linearly separable from classes Virginica and Vertosa. However, the classes Virginica and Vertosa are NOT linearly separable from each other [3] (https://archive.ics.uci.edu/ml/datasets/iris).  Define ‘Linear Separability’[4]
 ‘Linear separability refers to the fact that classes of patterns with -dimensional vector  can b e separated with a single decision surface. In the case above, the line  represents the decision surface.
 
 
@@ -80,25 +88,13 @@ This sections seeks to analyse the iris data set using python and produce a clea
 Click here to view the [first 5 rows] in a searchable table(https://github.com/fionaoriordan/52445_19_iris/blob/master/head5irisout.csv)
 Click here to view the [last 5 rows] in searchable table(https://github.com/fionaoriordan/52445_19_iris/blob/master/tail5irisout.csv)
 
-1. desciris.py generates a statiscal summary of the dataset. For each of the four variables/columns the mean (average value), std (a value representing by how much the data of a variable differs from the mean value of that variable), min (the minimum value of the variable), max (the maximum value of the variable) and the percentiles 25%, 50% and 75% ( the nth percentile is the lowest value that is greater than n% of the values in a particular attribute)[8].  The output also shows that there are no missing values in any of the columns since all variables have a count = 150. 
-
-![Desc Iris Screenshot](https://github.com/fionaoriordan/52445_19_iris/blob/master/descirisshot.png)
-
-To view in a searchable table click on:
-
-[Statisical Summary Table](https://github.com/fionaoriordan/52445_19_iris/blob/master/descirisoutput.csv)
-
- 
-1. Using python script irishist.py, we can see an approximate frequency distribution of each of the quantitative variables in the set i.e. how often each different value of the variables occurs (See Histogram1) [11, 12, 13]. Unlike variables sepal-width and sepal-length, we can see variables 'petal-width' and 'petal-length' could be interpreted as a bimodal distribution. A bimodal distribution is a distribution where there are two peaks [13]  This is interesting because it suggests there may be two distinct populations in the data set. 
-![Histogram1](https://github.com/fionaoriordan/52445_19_iris/blob/master/Histogram1.png)
-
-Similary, generating a scatter plot matrix 
-
-However, we do know from classiris.py that we have 3 classes, namely Iris setosa, Iris versicolora and Iris virginica, in the data set. Therefore, the next step is to investigate the variables 'petal-width' and 'petal-length' more closely by including the classes in a histogram. 
-
-Using histpetalclass.py [14](note: enter the py script name and the attribute name to run the report e.g. python histpetalclass.py 'petal-length'.), we can see that for variable petal-width class and petal-length the class/flowers Iris-setosa are clearly distinguished from Iris Versicolor and Iris Viginica. 
-![Histogram petal-width by class](https://github.com/fionaoriordan/52445_19_iris/blob/master/Hist_petal-width.png)
-![Histogram petal-length by class](https://github.com/fionaoriordan/52445_19_iris/blob/master/Hist_petal-length.png)
+1. A statistical summary of the iris dataset is generated by  desciris.py. For each of the four variables/attributes the mean (average value), std (a value representing by how much the data of a variable differs from the mean value of that variable), min (the minimum value of the variable), max (the maximum value of the variable) and the percentiles 25%, 50% and 75% ( the nth percentile is the lowest value that is greater than n% of the values in a particular attribute)[8].  The output also shows that there are no missing values in any of the columns since all variables have a count = 150.  ![Desc Iris Screenshot](https://github.com/fionaoriordan/52445_19_iris/blob/master/descirisshot.png)
+To view in a searchable table click on: [Statisical Summary Table](https://github.com/fionaoriordan/52445_19_iris/blob/master/descirisoutput.csv)
+ 1.An approximate frequency distribution of each of the quantitative variables in the set is generated by python script irishist.py.  How often each different value of the variables occurs is plotted(See Histogram1) [11, 12, 13]. Unlike variables sepal-width and sepal-length, we can see variables 'petal-width' and 'petal-length' could be interpreted as a bimodal distribution. A bimodal distribution is a distribution where there are two peaks [13]  This is interesting because it suggests there may be two distinct populations in the data set.![Histogram1](https://github.com/fionaoriordan/52445_19_iris/blob/master/Histogram1.png)
+1. Similary, generating a scatter plot matrix for all of the variables shows when using petal_width and petal_length a distinction within the data set is suggested. 
+However, we do know from classiris.py that we have 3 classes, namely Iris setosa, Iris versicolora and Iris virginica, in the data set. Therefore, the next step is to investigate the variables 'petal-width' and 'petal-length' more closely by including the class in our analysis. 
+1.Using histpetalclass.py [14](note: enter the py script name and the attribute name to run the report e.g. python histpetalclass.py 'petal-length'.), we can see that for variable petal-width class and petal-length the class/flowers Iris-setosa are clearly distinguished from Iris Versicolor and Iris Viginica.  Also, all of the possible variable combinatons show some distinction between the three classes/species except when **both** variables are sepal related. In otherwords, a distinction between the classes occurs when one of the two variables is a petal measurement.
+g = sns.pairplot(iris, vars=["sepal_width", "sepal_length"])![Histogram petal-width by class](https://github.com/fionaoriordan/52445_19_iris/blob/master/Hist_petal-width.png)![Histogram petal-length by class](https://github.com/fionaoriordan/52445_19_iris/blob/master/Hist_petal-length.png)
 
 However, when we run classiris.py for sepal-width and again for sepal-length, we notice that no such distinction exists. The measurements for all three classes overlap and we cannot distinguish between the three classes.
 
@@ -108,7 +104,7 @@ However, when we run classiris.py for sepal-width and again for sepal-length, we
 ![Pairplot of all variables with colour indicating class](https://github.com/fionaoriordan/52445_19_iris/blob/master/imgpairplot.png)
 
 
-# **2-D scatter plot:
+
 
 
 iris.plot(kind='scatter', x='sepal_length', y='sepal_width') ;
@@ -123,6 +119,9 @@ However, this is not helpful as we cannot decipher the class labels.
 
 
 ##**References**
+1. David Pfeiffer (1994) Eugenics and Disability Discrimination, Disability & Society, 9:4, 481-499, DOI: 10.1080/09687599466780471
+1.b Shakespeare, T. (2008) ‘Disability, Genetics and Eugenics in Disability on equal terms’ in French S. & Swain J. (eds) Disability on Equal Terms, London: Sage Publications Ltd
+1.c
 2. http://rcs.chemometrics.ru/Tutorials/classification/Fisher.pdf
 3. https://archive.ics.uci.edu/ml/datasets/iris
 4. http://www.ece.utep.edu/research/webfuzzy/docs/kk-thesis/kk-thesis-html/node19.html
