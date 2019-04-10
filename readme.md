@@ -17,25 +17,26 @@ The project begins with background information on Fisher and the Iris Data Set. 
 ## **Background**
 
 ### **Fisher**
-Sir Ronald A. Fisher (1890 - 1962) was a British mathematician, statistician, evolutionary biologist and geneticist. 'R.A. Fisher's extraordinary contributions to statistical theory and methods, experimental design, scientific inference, evolutionary biology and genetics have had far-reaching consequences in many branches of human thought and endeavour'[1].
+Sir Ronald A. Fisher (1890 - 1962) was a British mathematician, statistician, evolutionary biologist and geneticist. 
+>'R.A. Fisher's extraordinary contributions to statistical theory and methods, experimental design, scientific inference, evolutionary biology and genetics have had far-reaching consequences in many branches of human thought and endeavour'[1].
 
 However, Fisher is also unfortunately famously known for his deeply held belief and role in the Eugenics movement (Pfeiffer,1994) [1a]. The term eugenic was devised by Francis Galton (1883) to denote “well born” (cited in Shakespeare, 2008: 22) [1b].  
 
 Proponents of eugenics believed that social advantage had a genetic hereditary basis. Society would benefit by ‘checking’ the reproduction of the ‘bad’, whilst promoting reproduction in the ‘good’ (Galton, 1869:41).  Twentieth century actual implementations of eugenic thinking included forced sterilization in the US, UK and some Scandinavian countries (Kerr and Shakespeare, 2002, Barnes and Mercer, 2003).  The ultimate extreme of eugenic thinking was actualised in Nazi Germany when an estimated 250,000 disabled people and social undesirables were systematically murdered (Barnes and Mercer, 2003).
 
-So while we can acknowledge and benefit from much of Fisher's work as a statistician in this project, it is salient to remember science is neither created or used in a social or moral vacuum. 
+So while we can acknowledge and benefit from Fisher's work as a statistician in this project, it is salient to remember science is neither created or used in a social or moral vacuum. 
 
 ### **The Iris Data Set Creation**
- Botantist Dr. E. Anderson collected the Iris data which Fisher then used in his 1936 Analysis [2].  
+Botantist Dr. E. Anderson collected the Iris data which Fisher then used in his 1936 Analysis [2].  
 
- The data set is a multivariate data set and has four variables/features/attributes for each flower picked. The four variables measured for each sample collected were:
+The data set is a multivariate data set and has four variables/features/attributes for each flower picked. The four variables measured for each sample collected were:
    1. sepal length in cm
    1. sepal width in cm
    1. petal length in cm
    1. petal width in cm
-  This iris image shows the petal and sepal components of an Iris flower[5]![Iris image](https://github.com/fionaoriordan/52445_19_iris/blob/master/iris_with_labels.jpg) 
+This iris image shows the petal and sepal components of an Iris flower[5]![Iris image](https://github.com/fionaoriordan/52445_19_iris/blob/master/iris_with_labels.jpg) 
 
-  The data set contains 3 classes with each class representing a type of Iris flower specie[2]. The first two species Iris setosa and Iris versicolor were found growing together [2], while the third specie, Iris Virginica separately was found separately [2]. For each class, 50 samples were collected. Therefore 150 separate observations were recorded.
+The data set contains 3 classes with each class representing a type of Iris flower specie[2]. The first two species Iris setosa and Iris versicolor were found growing together [2], while the third specie, Iris Virginica separately was found separately [2]. For each class, 50 samples were collected. Therefore 150 separate observations were recorded.
  
 
 ### **Fisher’s Analysis of the Iris Data Set**
@@ -49,8 +50,7 @@ The iris dataset is infamous in the computer science field of pattern recognitio
 1. Save the file as iris.csv file.
 1. Now open iris.csv in Excel (Windows) or Numbers(Mac)
 
-## **Executing the python programs
-
+## **Executing the python programs**
 1. In the [repository page 52445_19_iris](https://github.com/fionaoriordan/52445_19_iris/blob/master/iris_with_labels.jpg) click on Download Zip ![download Zip](image file required).
 1. Once the repository has been saved to your downloads folder locally, then move to your desktop.
 1. Launch your Command Line Interface.
@@ -58,59 +58,46 @@ The iris dataset is infamous in the computer science field of pattern recognitio
 1. Open the folder 52445_19_iris with command: cd 52445_19_iris
 1. To run a script type python followed by the script name at the command line prompt e.g. python .py
 
-## **Exploratory Data Analysis
+## **Repository Contents (Scripts)
+1. [shapeiris.py](https://github.com/fionaoriordan/52445_19_iris/blob/master/shapeiris.py)
+1. [columnsiris.py](https://github.com/fionaoriordan/52445_19_iris/blob/master/columnsiris.py)
+1. [classiris.py](https://github.com/fionaoriordan/52445_19_iris/blob/master/classiris.py)
+1. [desciris.py](https://github.com/fionaoriordan/52445_19_iris/blob/master/desciris.py)
+1. [headtailiris5.py](https://github.com/fionaoriordan/52445_19_iris/blob/master/head5irisout.csv)
+1. [desciris.py](https://github.com/fionaoriordan/52445_19_iris/blob/master/desciris.py)
+1. [histiris.py](https://github.com/fionaoriordan/52445_19_iris/blob/master/histiris.py)
+1. [pairplotnohue.py](https://github.com/fionaoriordan/52445_19_iris/blob/master/pairplotnohue.py)
+1. [histpetalclass.py](https://github.com/fionaoriordan/52445_19_iris/blob/master/histpetalclass.py)
+1. [pairplot.py](https://github.com/fionaoriordan/52445_19_iris/blob/master/pairplotiris.py)
 
+
+
+## **Exploratory Data Analysis
 This sections seeks to analyse the iris data set using python and produce a clear understanding of the data set.
 
-* Summarise the data set by, for example, calculating the maximum, minimum and mean of each column of the data set. A Python script will quickly do this for you.
-*  Write a summary of your investigations.
-*  Include supporting tables and graphics as you deem necessary.
-# **Overview 
-1. shapeiris.py shows the iris data set/table has 150 rows and 5 columns:
-![Shape](https://github.com/fionaoriordan/52445_19_iris/blob/master/shapeimage.png)
+# **Overview** 
+1. Iris data set/table has 150 rows and 5 columns as demonstrated by [shapeiris.py](https://github.com/fionaoriordan/52445_19_iris/blob/master/shapeiris.py):![Shape](https://github.com/fionaoriordan/52445_19_iris/blob/master/shapeimage.png)
+1. The names of five column of the Iris data set are shown by  [columnsiris.py](https://github.com/fionaoriordan/52445_19_iris/blob/master/columnsiris.py). The first four are attributes/variables collected by Anderson and the last column 'class' stores the iris flower class: ![Columns iris](https://github.com/fionaoriordan/52445_19_iris/blob/master/columnsimage.png)
+1. As [classiris.py](https://github.com/fionaoriordan/52445_19_iris/blob/master/classiris.py) shows, the dataset has three iris classes: Iris Setosa, Iris-virginica and Iris-versicolor. The Iris data set is a balanced data set as each class is equally represented within the data set as there are 50 observations for each class recorded witin the class.
+![Count by Class](https://github.com/fionaoriordan/52445_19_iris/blob/master/countclassimage.png)
+1. Python scripts headtailiris5.py shows the first and last 5 rows of the data set including the names assigned to each of the variables and the class are shown by [headtailiris5.py](https://github.com/fionaoriordan/52445_19_iris/blob/master/headtailiris5.py).  
+![Headtail image](https://github.com/fionaoriordan/52445_19_iris/blob/master/imgheadtail5.png) Click here to view the [first 5 rows] in a searchable table:[head5irisout.csv](https://github.com/fionaoriordan/52445_19_iris/blob/master/head5irisout.csv) and click here to view the last 5 rows in searchable table[tail5irisout.csv](https://github.com/fionaoriordan/52445_19_iris/blob/master/tail5irisout.csv)
+1. A statistical summary of the iris data set is generated by  [desciris.py](https://github.com/fionaoriordan/52445_19_iris/blob/master/desciris.py). For each of the four variables/attributes the mean (average value), std (a value representing by how much the data of a variable differs from the mean value of that variable), min (the minimum value of the variable), max (the maximum value of the variable) and the percentiles 25%, 50% and 75% ( the nth percentile is the lowest value that is greater than n% of the values in a particular attribute)[8].  The output also shows that there are no missing values in any of the columns since all variables have a count = 150.  ![Desc Iris Screenshot](https://github.com/fionaoriordan/52445_19_iris/blob/master/descirisshot.png). To view in a searchable table click on: [Statisical Summary Table](https://github.com/fionaoriordan/52445_19_iris/blob/master/descirisoutput.csv)
 
+#**Observable Patterns within the Iris Data Set**
+Now it is time to look for any interesting patterns or observations within the iris data set.
+* **A suggestion of distinct populations:**
+1. An approximate frequency distribution of each of the quantitative variables in the set is generated by python script [histiris.py](https://github.com/fionaoriordan/52445_19_iris/blob/master/histiris.py)[11] [12] [13].  How often each range of values of the variables occurs is plotted.![Histogram1](https://github.com/fionaoriordan/52445_19_iris/blob/master/Histogram1.png) . Unlike variables sepal-width and sepal-length, we can see variables 'petal-width' and 'petal-length' could be interpreted as a bimodal distribution. A bimodal distribution is a distribution where there are two peaks [13]. This distribution is interesting because it suggests there may be two distinct populations in the data set.
+1. Similary, generating a scatter plot and histogram matrix, using [pairplotnohue.py](https://github.com/fionaoriordan/52445_19_iris/blob/master/pairplotnohue.py), we can see when using variable petal_width and/or petal_length a similiar distinction within the data set is suggested by scatter plots as histograms. However, again, when the two dimensional variable combinations do NOT include petal_width and/or petal_length, we do not see a suggestion of a distinction within the data. Scatterplots for joint relationships and histograms for univariate distributions:![hist_scatter_nohue.png](https://github.com/fionaoriordan/52445_19_iris/blob/master/hist_scatter_nohue.png)
 
-1. columnsiris.py shows the names of the 5 columns. The first four are attributes/variables collected by Anderson. The last column 'class' stores the iris flower class. Classes are  :
+**Color provides an explanation**
+However, we do know from [classiris.py]((https://github.com/fionaoriordan/52445_19_iris/blob/master/classiris.py)),as discussed earlier,that we have 3 classes, namely Iris-setosa, Iris-versicolora and Iris-virginica, in the data set. Therefore, the next step is to investigate the data more closely by including 'class' in our analysis. Color will used to denote iris class.
 
-![Columns iris](https://github.com/fionaoriordan/52445_19_iris/blob/master/columnsimage.png)
-
-1. classiris.py shows how many data points for each class are in the data set/table. The Iris data set is a balanced data set as each class is equally represented in the data set. There are 50 data points for each class.
-
-1. ![Count by Class](https://github.com/fionaoriordan/52445_19_iris/blob/master/countclassimage.png)
-
-1. headtailiris5.py shows the first and last 5 rows of the data set including the names assigned to each of the variables and the class.  ![Headtail image](https://github.com/fionaoriordan/52445_19_iris/blob/master/imgheadtail5.png)
-
-Click here to view the [first 5 rows] in a searchable table(https://github.com/fionaoriordan/52445_19_iris/blob/master/head5irisout.csv)
-Click here to view the [last 5 rows] in searchable table(https://github.com/fionaoriordan/52445_19_iris/blob/master/tail5irisout.csv)
-
-1. A statistical summary of the iris data set is generated by  desciris.py. For each of the four variables/attributes the mean (average value), std (a value representing by how much the data of a variable differs from the mean value of that variable), min (the minimum value of the variable), max (the maximum value of the variable) and the percentiles 25%, 50% and 75% ( the nth percentile is the lowest value that is greater than n% of the values in a particular attribute)[8].  The output also shows that there are no missing values in any of the columns since all variables have a count = 150.  ![Desc Iris Screenshot](https://github.com/fionaoriordan/52445_19_iris/blob/master/descirisshot.png)
-To view in a searchable table click on: [Statisical Summary Table](https://github.com/fionaoriordan/52445_19_iris/blob/master/descirisoutput.csv)
- 1.An approximate frequency distribution of each of the quantitative variables in the set is generated by python script irishist.py.  How often each different value of the variables occurs is plotted(See Histogram1) [11, 12, 13]. Unlike variables sepal-width and sepal-length, we can see variables 'petal-width' and 'petal-length' could be interpreted as a bimodal distribution. A bimodal distribution is a distribution where there are two peaks [13]  This is interesting because it suggests there may be two distinct populations in the data set.![Histogram1](https://github.com/fionaoriordan/52445_19_iris/blob/master/Histogram1.png)
-1. Similary, generating a scatter plot matrix for all of the variables shows when using petal_width and petal_length a distinction within the data set is suggested. 
-However, we do know from classiris.py that we have 3 classes, namely Iris setosa, Iris versicolora and Iris virginica, in the data set. Therefore, the next step is to investigate the variables 'petal-width' and 'petal-length' more closely by including the class in our analysis. 
-1.Using histpetalclass.py [14](note: enter the py script name and the attribute name to run the report e.g. python histpetalclass.py 'petal-length'.), we can see that for variable petal-width class and petal-length the class/flowers Iris-setosa are clearly distinguished from Iris Versicolor and Iris Viginica.  Also, all of the possible variable combinatons show some distinction between the three classes/species except when **both** variables are sepal related. In otherwords, a distinction between the classes occurs when one of the two variables is a petal measurement.
-g = sns.pairplot(iris, vars=["sepal_width", "sepal_length"])![Histogram petal-width by class](https://github.com/fionaoriordan/52445_19_iris/blob/master/Hist_petal-width.png)![Histogram petal-length by class](https://github.com/fionaoriordan/52445_19_iris/blob/master/Hist_petal-length.png)
-
-However, when we run classiris.py for sepal-width and again for sepal-length, we notice that no such distinction exists. The measurements for all three classes overlap and we cannot distinguish between the three classes.
-
-![Histogram sepal-width by class](https://github.com/fionaoriordan/52445_19_iris/blob/master/Hist_sepal-width.png)
-![Histogram sepal-length by class](https://github.com/fionaoriordan/52445_19_iris/blob/master/Hist_sepal-length.png)
-
-![Pairplot of all variables with colour indicating class](https://github.com/fionaoriordan/52445_19_iris/blob/master/imgpairplot.png)
-
-
-
-
-
-iris.plot(kind='scatter', x='sepal_length', y='sepal_width') ;
-plt.show()
-
-However, this is not helpful as we cannot decipher the class labels.
-#What if we color the points by their class-label/flower-type??
-
-
-
-
+1. Using [histpetalclass.py](https://github.com/fionaoriordan/52445_19_iris/blob/master/histpetalclass.py)[14],(note: enter the py script name followed by the variable name to run the report e.g. python histpetalclass.py 'petal-length'.), we can see that for variable petal-width class and petal-length the class/flowers Iris-setosa are clearly distinguished from Iris Versicolor and Iris Viginica.
+![Histogram petal-width by class](https://github.com/fionaoriordan/52445_19_iris/blob/master/Hist_petal-width.png)![Histogram petal-length by class](https://github.com/fionaoriordan/52445_19_iris/blob/master/Hist_petal-length.png)
+1. However, when we run classiris.py for sepal-width and again for sepal-length, we notice that no such distinction exists. The measurements for all three classes overlap and we cannot distinguish between the three classes. ![Hist_sepal-width.png](https://github.com/fionaoriordan/52445_19_iris/blob/master/Hist_sepal-width.png)
+![Hist_sepal-length.png](https://github.com/fionaoriordan/52445_19_iris/blob/master/Hist_sepal-length.png)
+1. All of the possible two dimensional variable combinatons show a level of distinction between the three classes/species except when **both** variables are sepal related. In otherwords, as the python script [pairplot.py](https://github.com/fionaoriordan/52445_19_iris/blob/master/pairplotiris.py) for all two dimensional variable combinations, demonstrates a distinction between the classes can be found when at least one of the two variables is a petal measurement.![imgpairplot.png](https://github.com/fionaoriordan/52445_19_iris/blob/master/imgpairplot.png)
 
 
 ##**References**
