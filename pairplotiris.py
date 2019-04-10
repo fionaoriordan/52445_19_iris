@@ -6,6 +6,9 @@
 # https://www.datacamp.com/community/tutorials/seaborn-python-tutorial#title
 # https://seaborn.pydata.org/generated/seaborn.pairplot.html
 # https://stackoverflow.com/questions/29813694/how-to-add-a-title-to-seaborn-facet-plot
+# https://stackoverflow.com/questions/47542104/how-to-control-the-legend-in-seaborn-python
+
+
 # import the seaborn library so that we can use seaborn functions and rename as sns 
 import seaborn as sns
 # import the matplotlib library functions below  and rename as plt
@@ -13,8 +16,10 @@ import matplotlib.pyplot as plt
 
 # load the iris data set from seaborn
 iris = sns.load_dataset("iris")
-# create a pairplot for the iris dataset with the iris data set class 'species' determing color and call it g
-g = sns.pairplot(iris, hue='species') 
+# create a pairplot for the iris dataset with the iris data set class 'species' determing color and call it g so that we can manipulate it.
+g = sns.pairplot(iris, hue='species')
+# Seaborn calls the column 'Class' 'species'. Renaming on my output so there is no confusion
+g._legend.set_title("Class")
 # adjust the height of the title so it does not overlap the graph
 plt.subplots_adjust(top=0.9)   
 # create a chart subtitle.
