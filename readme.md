@@ -17,13 +17,13 @@ The project begins with background information on Fisher and the Iris Data Set. 
 ## **Background**
 
 ### **Fisher**
-Sir Ronald Aylmer Fisher (1890 - 1962) was a British mathematician , statistician, evolutionary biologist and geneticist. Fisher's book the Genetical Theory of Natural Selection (1930) proved that Mendelian genetics is an essential underlying mechanism of Darwiniam evolution. His work is widely acknowledged as laying the foundations for statistical analysis in the life sciences.[1]
+Sir Ronald A. Fisher (1890 - 1962) was a British mathematician, statistician, evolutionary biologist and geneticist. 'R.A. Fisher's extraordinary contributions to statistical theory and methods, experimental design, scientific inference, evolutionary biology and genetics have had far-reaching consequences in many branches of human thought and endeavour'[1].
 
-However, Fisher is also unfortunately famously known for his deeply held belief in and role in the Eugenics movement. The term eugenic was devised by Francis Galton (1883) to denote “well born” (cited in Shakespeare, 2008: 22) [1b].  
+However, Fisher is also unfortunately famously known for his deeply held belief and role in the Eugenics movement (Pfeiffer,1994) [1a]. The term eugenic was devised by Francis Galton (1883) to denote “well born” (cited in Shakespeare, 2008: 22) [1b].  
 
 Proponents of eugenics believed that social advantage had a genetic hereditary basis. Society would benefit by ‘checking’ the reproduction of the ‘bad’, whilst promoting reproduction in the ‘good’ (Galton, 1869:41).  Twentieth century actual implementations of eugenic thinking included forced sterilization in the US, UK and some Scandinavian countries (Kerr and Shakespeare, 2002, Barnes and Mercer, 2003).  The ultimate extreme of eugenic thinking was actualised in Nazi Germany when an estimated 250,000 disabled people and social undesirables were systematically murdered (Barnes and Mercer, 2003).
 
-So while we can acknowledge and benefit from Fisher's work as a statistician, it is salient to remember science is not created or used in a social or moral vacuum. 
+So while we can acknowledge and benefit from much of Fisher's work as a statistician in this project, it is salient to remember science is neither created or used in a social or moral vacuum. 
 
 ### **The Iris Data Set Creation**
  Botantist Dr. E. Anderson collected the Iris data which Fisher then used in his 1936 Analysis [2].  
@@ -39,11 +39,10 @@ So while we can acknowledge and benefit from Fisher's work as a statistician, it
  
 
 ### **Fisher’s Analysis of the Iris Data Set**
- Fisher's analysis was published in The Use of Multiple Measurements in Taxonomic Problems, 1936 [2].  Fisher found that one class is linearly separable from the other two classes[3]. While the other two classes are not linearly separable from each other [3]. The dataset is infamous in the computer science field of pattern recognition [3]. 'Pattern recognition is one of the four cornerstones of Computer Science. It involves finding the similarities or patterns among small, decomposed problems that can help us solve more complex problems more efficiently' Verbatim(https://www.bbc.com/bitesize/guides/zxxbgk7/revision/1).
+Fisher's analysis was published in The Use of Multiple Measurements in Taxonomic Problems, 1936 [2].  Fisher found that class Iris Setosa is linearly separable from the other two classes Iris Virginica and Iris Vertosa [3]. While the later two classes are not linearly separable from each other [3]. Two classes are linearly separable when a line connecting a series of points can be draw between classes projected on to a surface[3a].![Example of Linear Separability](https://github.com/fionaoriordan/52445_19_iris/blob/master/linearlyseparable.png)
 
+The dataset is infamous in the computer science field of pattern recognition [3]. 'Pattern recognition is one of the four cornerstones of Computer Science. It involves finding the similarities or patterns among small, decomposed problems that can help us solve more complex problems more efficiently'[3b].
 
-Specie Setosa is linearly separable from classes Virginica and Vertosa. However, the classes Virginica and Vertosa are NOT linearly separable from each other [3] (https://archive.ics.uci.edu/ml/datasets/iris).  Define ‘Linear Separability’[4]
-‘Linear separability refers to the fact that classes of patterns with -dimensional vector  can b e separated with a single decision surface. In the case above, the line  represents the decision surface.
 
 
 ## **To Download the Iris Data Set**
@@ -119,11 +118,15 @@ However, this is not helpful as we cannot decipher the class labels.
 
 
 ##**References**
-1. David Pfeiffer (1994) Eugenics and Disability Discrimination, Disability & Society, 9:4, 481-499, DOI: 10.1080/09687599466780471
+1. https://www.adelaide.edu.au/library/special/mss/fisher/
+1.a Pfeiffer, D (1994) Eugenics and Disability Discrimination, Disability & Society, 9:4, 481-499, DOI: 10.1080/09687599466780471
 1.b Shakespeare, T. (2008) ‘Disability, Genetics and Eugenics in Disability on equal terms’ in French S. & Swain J. (eds) Disability on Equal Terms, London: Sage Publications Ltd
-1.c
+1.b Galton, F. (1869) Hereditary Genius, 2nd edition, London and Colchester, Ballantyne & Co.
+1.c Kerr, A. and Shakespeare, T. (2002) Genetic politics: from eugenics to genome, Cheltenham, New Clarion Press
 2. http://rcs.chemometrics.ru/Tutorials/classification/Fisher.pdf
 3. https://archive.ics.uci.edu/ml/datasets/iris
+3a https://medium.com/@QuarizmiAdTech/a-full-introduction-to-the-linear-fisher-discriminant-analysis-848530dce336
+3b https://www.bbc.com/bitesize/guides/zxxbgk7/revision/1
 4. http://www.ece.utep.edu/research/webfuzzy/docs/kk-thesis/kk-thesis-html/node19.html
 5. https://www.math.umd.edu/~petersd/666/html/iris_pca.html
 6. http://www.twofrog.com/irissetosa.html
