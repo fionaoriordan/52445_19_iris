@@ -16,8 +16,6 @@ import matplotlib.pyplot as plt
 iris = sns.load_dataset("iris")
 # create a pairplot for the iris dataset with the iris data set class 'species' determing color and call it g
 g = sns.pairplot(iris) 
-# Seaborn calls the column 'Class' 'species'. Renaming on my output so there is no confusion
-g._legend.set_title("Class")
 # adjust the height of the title so it does not overlap the graph
 plt.subplots_adjust(top=0.9)   
 # create a chart subtitle.
