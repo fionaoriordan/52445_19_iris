@@ -1,6 +1,6 @@
-# **Fiona O'Riordan 28 March 2019
-# **Module 52445 Programming and Scripting
-# **Project Iris Data Set
+# **Fiona O'Riordan 28 March 2019**
+# **Module 52445 Programming and Scripting**
+# **Project Iris Data Set**
 
 ![versicolor image](https://github.com/fionaoriordan/52445_19_iris/blob/master/220px-Iris_versicolor_3.jpg)[1]
 ![virginica image](https://github.com/fionaoriordan/52445_19_iris/blob/master/220px-Iris_virginica.jpg) [1]
@@ -37,13 +37,14 @@ The data set is a multivariate data set and has four variables/features/attribut
    1. sepal width in cm
    1. petal length in cm
    1. petal width in cm
+
 This iris image shows the petal and sepal components of an Iris flower[14]![Iris image](https://github.com/fionaoriordan/52445_19_iris/blob/master/iris_with_labels.jpg) 
 
-The data set contains 3 classes with each class representing a type of Iris flower specie[3]. The first two species Iris setosa and Iris versicolor were found growing together [3], while the third specie, Iris Virginica separately was found separately [3]. For each class, 50 samples were collected. Therefore 150 separate observations were recorded.
+The data set contains three classes with each class representing a type of Iris flower specie[3]. The first two species Iris setosa and Iris versicolor were found growing together [3], while the third specie, Iris Virginica separately was found separately [3]. For each class, 50 samples were collected. Therefore 150 separate observations were recorded.
 
 ### **Fisher’s Analysis of the Iris Data Set**
 
-Fisher's analysis was published in The Use of Multiple Measurements in Taxonomic Problems, 1936 [3].  Fisher found that class Iris Setosa is linearly separable from the other two classes Iris Virginica and Iris Vertosa [10]. While the later two classes are not linearly separable from each other [10]. 'Linear separability refers to the fact that classes of patterns with $ n$-dimensional vector  $ {\bf x} = (x_1, x_2, ... , x_n)$ can be separated with a single decision surface'[11]. In other words, two classes are linearly separable when a line connecting a series of points can be draw between classes projected on to a surface[11],[12]. This chart shows how an example of gender classification (Female = Red, Male = Blue) is linearly separable based on height and weight: ![Example of Linear Separability](https://github.com/fionaoriordan/52445_19_iris/blob/master/linearlyseparable.png)[12]
+Fisher's analysis was published in The Use of Multiple Measurements in Taxonomic Problems, 1936 [3].  Fisher found that class Iris Setosa is linearly separable from the other two classes Iris Virginica and Iris Vertosa [10]. While the later two classes are not linearly separable from each other [10]. 'Linear separability refers to the fact that classes of patterns with n-dimensional vector x = (x_1, x_2, ... , x_n) can be separated with a single decision surface'[11]. In other words, two classes are linearly separable when a line connecting a series of points can be draw between classes projected on to a surface[11],[12]. This chart shows how an example of gender classification (Female = Red, Male = Blue) is linearly separable based on height and weight: ![Example of Linear Separability](https://github.com/fionaoriordan/52445_19_iris/blob/master/linearlyseparable.png)[12]
 
 The iris dataset is infamous in the computer science field of pattern recognition [10]. 'Pattern recognition is one of the four cornerstones of Computer Science. It involves finding the similarities or patterns among small, decomposed problems that can help us solve more complex problems more efficiently'[13].
 
@@ -113,37 +114,59 @@ However, we do know from [classiris.py]((https://github.com/fionaoriordan/52445_
 1. As the python script [pairplot.py](https://github.com/fionaoriordan/52445_19_iris/blob/master/pairplotiris.py), shows class Iris Setosa can be clearly separated from classes Iris Virginica and Iris Vertosa when at least one of the two variables in a two dimensional variable combination is a petal measurement.![imgpairplot.png](https://github.com/fionaoriordan/52445_19_iris/blob/master/imgpairplot.png). This separation does not exist when 
  **both** variables are sepal measurements and classes Iris Virginica and Iris Vertosa are not linearly separable regardless of variables projected.
 
-##**References**
+## **References**
 
-1. Wikipedia Iris flower data set https://en.wikipedia.org/wiki/Iris_flower_data_set
-2. www.twofrog.com Wild Iris - Iris Setosa http://www.twofrog.com/irissetosa.html
-3. Fisher, R.A. (1936) The Use of Multiple measurements in Taxonomic Problems http://rcs.chemometrics.ru/Tutorials/classification/Fisher.pdf
-4. The University of Adelaide, Rare Books and Special Collections Sir Ronald Aylmer Fisher (1890-1962) 
-Statistician and geneticist, Papers 1911-2005 https://www.adelaide.edu.au/library/special/mss/fisher/
+1. Wikipedia, Iris flower data set.
+https://en.wikipedia.org/wiki/Iris_flower_data_set
+2. www.twofrog.com, Wild Iris - Iris Setosa.
+http://www.twofrog.com/irissetosa.html
+3. Fisher, R.A. (1936) The Use of Multiple measurements in Taxonomic Problems.
+http://rcs.chemometrics.ru/Tutorials/classification/Fisher.pdf
+4. The University of Adelaide, Rare Books and Special Collections Sir Ronald Aylmer Fisher (1890-1962) Statistician and geneticist, Papers 1911-2005.
+https://www.adelaide.edu.au/library/special/mss/fisher/
 5. Pfeiffer, D (1994) Eugenics and Disability Discrimination, Disability & Society, 9:4, 481-499, DOI: 10.1080/09687599466780471
 6. Galton, F. (1869) Hereditary Genius, 2nd edition, London and Colchester, Ballantyne & Co.
 7. Shakespeare, T. (2008) ‘Disability, Genetics and Eugenics in Disability on equal terms’ in French S. & Swain J. (eds) Disability on Equal Terms, London: Sage Publications Ltd
 8. Kerr, A. and Shakespeare, T. (2002) Genetic politics: from eugenics to genome, Cheltenham, New Clarion Press
 9. Barnes, C. and Mercer, M. (2003) Disability, Cambridge: Polity Press
-10. UCI Machine Learning Repository, Iris Data Set https://archive.ics.uci.edu/ml/datasets/iris
-11. http://www.ece.utep.edu/research/webfuzzy/docs/kk-thesis/kk-thesis-html/node19.html
+10. UCI Machine Learning Repository, Iris Data Set
+https://archive.ics.uci.edu/ml/datasets/iris
+11. A Multithreaded Software Model for Backpropgation Neural Network Applications, 2.4.1 Linear Separability and the XOR Problem
+http://www.ece.utep.edu/research/webfuzzy/docs/kk-thesis/kk-thesis-html/node19.html
 12. www.medium.com, The Linear Fischer Discriminant Analysis, A full introduction to The Linear Fisher Discriminant Analysis https://medium.com/@QuarizmiAdTech/a-full-introduction-to-the-linear-fisher-discriminant-analysis-848530dce336
-13. BBC,  Bitesize Guides, KS3 Pattern recognition  https://www.bbc.com/bitesize/guides/zxxbgk7/revision/1
-14. Math UMD, Example for Principal Component Analysis (PCA): Iris data https://www.math.umd.edu/~petersd/666/html/iris_pca.html
-15. Statistics How To, Percentiles, Percentile Rank & Percentile Range: Definition & Examples https://www.statisticshowto.datasciencecentral.com/9. probability-and-statistics/percentiles-rank-range/
-16. Pandas Documentation 0.24.2 documentation, API Reference, Pandas Data Frame https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.describe.html
-17. Matplotlib Histogram – How to Visualize Distributions in Python https://asq.org/quality-resources/histogram#types
-18. Machine Learning Mastery, Your First Machine Learning Project in Python Step-By-Step https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
-19. Matplotlib Tutorial 5 - Histograms, Youtube https://www.youtube.com/watch?v=r75BPh1uk38
-20. Plotting histograms from grouped data in a pandas DataFrame, Stackoverflow.com  https://stackoverflow.com/a/19603918/11250489
-21. What is the difference between drawing plots using plot, axes or figure in matplotlib?, Stackoverflow.com https://stackoverflow.com/questions/37970424/what-is-the-difference-between-drawing-plots-using-plot-axes-or-figure-in-matpl/37970713  
-22. Multimodal distribution, Wikipedia https://en.wikipedia.org/wiki/Multimodal_distribution
-23. https://seaborn.pydata.org/tutorial/distributions.html#visualizing-pairwise-relationships-in-a-dataset
-24. https://www.datacamp.com/community/tutorials/seaborn-python-tutorial#title
-25. https://seaborn.pydata.org/generated/seaborn.pairplot.html
-26. https://stackoverflow.com/questions/29813694/how-to-add-a-title-to-seaborn-facet-plot
-27. https://stackoverflow.com/questions/47542104/how-to-control-the-legend-in-seaborn-python
-28. https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.value_counts.html
-29. https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.columns.html?highlight=columns#pandas.DataFrame.columns 
-30. https://data36.com/pandas-tutorial-1-basics-reading-data-files-dataframes-data-selection/
-31. 
+13. BBC,  Bitesize Guides, KS3 Pattern recognition
+https://www.bbc.com/bitesize/guides/zxxbgk7/revision/1
+14. Math UMD, Example for Principal Component Analysis (PCA): Iris data
+https://www.math.umd.edu/~petersd/666/html/iris_pca.html
+15. Statistics How To, Percentiles, Percentile Rank & Percentile Range: Definition & Examples
+https://www.statisticshowto.datasciencecentral.com/9. probability-and-statistics/percentiles-rank-range/
+16. Pandas Documentation, 0.24.2 documentation, API Reference, Pandas Data Frame
+https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.describe.html
+17. Matplotlib Histogram – How to Visualize Distributions in Python 
+https://asq.org/quality-resources/histogram#types
+18. Machine Learning Mastery, Your First Machine Learning Project in Python Step-By-Step
+https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
+19. Matplotlib Tutorial 5 - Histograms, Youtube
+https://www.youtube.com/watch?v=r75BPh1uk38
+20. Stackoverflow.com, Plotting histograms from grouped data in a pandas DataFrame 
+https://stackoverflow.com/a/19603918/11250489
+21. Stackoverflow.com, What is the difference between drawing plots using plot, axes or figure in matplotlib?
+https://stackoverflow.com/questions/37970424/what-is-the-difference-between-drawing-plots-using-plot-axes-or-figure-in-matpl/37970713  
+22. Wikipedia, Multimodal distribution.
+https://en.wikipedia.org/wiki/Multimodal_distribution
+23. Seaborn, Visualizing the distribution of a dataset
+https://seaborn.pydata.org/tutorial/distributions.html#visualizing-pairwise-relationships-in-a-dataset
+24. Datacamp, Community Tutorials, Python Seaborn Tutorial For Beginners.
+https://www.datacamp.com/community/tutorials/seaborn-python-tutorial#title
+25. Seaborn, seaborn.pairplot.
+https://seaborn.pydata.org/generated/seaborn.pairplot.html
+26. Stackoverflow.com, How to add a title to Seaborn Facet Plot.
+https://stackoverflow.com/questions/29813694/how-to-add-a-title-to-seaborn-facet-plot
+27. Stackoverflow.com, How to control the legend in seaborn.
+https://stackoverflow.com/questions/47542104/how-to-control-the-legend-in-seaborn-python
+28. Pandas 0.24.2 documentation » API Reference » Series » pandas.Series » Value Counts. 
+https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.value_counts.html
+29. Pandas 0.24.2 documentation, API Reference, Series, Dataframes,Columns
+https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.columns.html?highlight=columns#pandas.DataFrame.columns 
+30. Data36.com, Pandas Tutorial 1: Pandas Basics (Reading Data Files, DataFrames, Data Selection).
+https://data36.com/pandas-tutorial-1-basics-reading-data-files-dataframes-data-selection/
