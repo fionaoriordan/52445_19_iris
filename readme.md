@@ -60,7 +60,7 @@ The iris dataset is infamous in the computer science field of pattern recognitio
 1. Now open iris.csv in Excel (Windows) or Numbers(Mac)
 
 ## **Executing the python programs**
-1. In the [repository page 52445_19_iris](https://github.com/fionaoriordan/52445_19_iris/blob/master/iris_with_labels.jpg) click on Download Zip ![download Zip](image file required).
+1. In the [repository page 52445_19_iris](https://github.com/fionaoriordan/52445_19_iris) click on Download Zip ![download Zip](https://github.com/fionaoriordan/52445_19_iris/blob/master/download_iris_repository.png).
 1. Once the repository has been saved to your downloads folder locally, then move to your desktop.
 1. Launch your Command Line Interface.
 1. Open the Desktop directory with command: cd Desktop
