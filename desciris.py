@@ -1,10 +1,10 @@
 # Fiona O'Riordan 28 March 2019 
 # Project Iris Data Set
-# Describe the Iris Data Set
+# This script describes the Iris Data Set by showing the count, mean, standard deviation, minimum, maximum and percentile values for each of the four attributes in the set.
 # Adapted from:
-# https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
-# https://www.statisticshowto.datasciencecentral.com/9. probability-and-statistics/percentiles-rank-range/
-# https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.describe.html
+# https://www.statisticshowto.datasciencecentral.com/9. probability-and-statistics/percentiles-rank-range/ [15]
+# https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.describe.html [16]
+# https://machinelearningmastery.com/machine-learning-in-python-step-by-step/ [18]
 # import the pandas library and rename as pd 
 import pandas as pd
 # import sys library so that we can use function sys.argv 
