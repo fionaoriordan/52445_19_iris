@@ -1,11 +1,11 @@
 # Fiona O'Riordan 28 March 2019 
 # Project Iris Data Set
-# Create histograms for the Iris Data Set
+# Create histograms for all 4 variables in the data set distinctly showing an approximate frequency distribution of each of the quantitative variables in the set.
 # Adapted from:
-# https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
-# https://www.youtube.com/watch?v=r75BPh1uk38
-# https://stackoverflow.com/a/19603918/11250489
-# https://stackoverflow.com/questions/37970424/what-is-the-difference-between-drawing-plots-using-plot-axes-or-figure-in-matpl/37970713
+# https://machinelearningmastery.com/machine-learning-in-python-step-by-step/ [18]
+# https://www.youtube.com/watch?v=r75BPh1uk38 [19]
+# https://stackoverflow.com/a/19603918/11250489 [20]
+# https://stackoverflow.com/questions/37970424/what-is-the-difference-between-drawing-plots-using-plot-axes-or-figure-in-matpl/37970713 [21]
 # import the pandas libary in order to use the read_csv function below and rename as pd 
 import pandas as pd
 # import the matplotlib library class pyplot in order to use the show function below and rename as plt
