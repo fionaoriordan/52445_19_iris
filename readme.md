@@ -38,7 +38,8 @@ The data set is a multivariate data set and has four variables/features/attribut
    1. petal length in cm
    1. petal width in cm
 
-This iris image shows the petal and sepal components of an Iris flower[14]![Iris image](https://github.com/fionaoriordan/52445_19_iris/blob/master/iris_with_labels.jpg) 
+This iris image shows the petal and sepal components of an Iris flower
+![Iris image](https://github.com/fionaoriordan/52445_19_iris/blob/master/iris_with_labels.jpg)[14]
 
 The data set contains three classes with each class representing a type of Iris flower specie[3]. The first two species Iris setosa and Iris versicolor were found growing together [3], while the third specie, Iris Virginica separately was found separately [3]. For each class, 50 samples were collected. Therefore 150 separate observations were recorded.
 
