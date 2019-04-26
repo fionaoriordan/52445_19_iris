@@ -1,3 +1,7 @@
+# Fiona O'Riordan 28 March 2019 
+# Project Iris Data Set
+# Script to show the number of rows and columns in the Iris Data Set
+# Adapted from: # https://machinelearningmastery.com/machine-learning-in-python-step-by-step/ [18]
 import pandas as pd
 # import sys library so that we can use function sys.argv 
 import sys
