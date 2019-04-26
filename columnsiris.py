@@ -1,4 +1,7 @@
-
+# Fiona O'Riordan 01 April 2019 
+# Project Iris Data Set
+# This script lists the names of five columns of the Iris data set.
+# Adapted from: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.columns.html?highlight=columns#pandas.DataFrame.columns [29]
 import pandas as pd
 # import sys library so that we can use function sys.argv 
 import sys
