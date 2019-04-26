@@ -1,4 +1,7 @@
-
+# Fiona O'Riordan 06 April 2019 
+# Project Iris Data Set
+# classiris.py lists the three classes in the dataset.
+# Adapted from: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.value_counts.html [28]
 import pandas as pd
 # import sys library so that we can use function sys.argv 
 import sys
