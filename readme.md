@@ -50,7 +50,7 @@ Fisher's analysis was published in The Use of Multiple Measurements in Taxonomic
 
 ![Example of Linear Separability](https://github.com/fionaoriordan/52445_19_iris/blob/master/linearlyseparable.png)[12]
 
-The iris dataset is infamous in the computer science field of pattern recognition [10]. 'Pattern recognition is one of the four cornerstones of Computer Science. It involves finding the similarities or patterns among small, decomposed problems that can help us solve more complex problems more efficiently'[13].
+The iris dataset is infamous in the computer science field of pattern recognition [10]. 'Pattern recognition is one of the four cornerstones of Computer Science. It involves finding the similarities or patterns among small, decomposed problems that can help us solve more complex problems more efficiently'[13]. Pattern recognition focuses on how a computer can be trained to read, interpret and distinguish between the differences of things and then categorize those things based on the patterns identified [31].
 
 ## **To Download the Iris Data Set**
 
@@ -174,3 +174,6 @@ https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.value_c
 https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.columns.html?highlight=columns#pandas.DataFrame.columns 
 30. Data36.com, Pandas Tutorial 1: Pandas Basics (Reading Data Files, DataFrames, Data Selection).
 https://data36.com/pandas-tutorial-1-basics-reading-data-files-dataframes-data-selection/
+31. Sharma, L. and  Sharma U. (2014) Neural Network Based Classifier (Pattern recognition) for
+Classification of Iris Data Set, International Journal of Recent Development in Engineering and Technology Website: www.ijrdet.com  Volume 3, Issue 2, August 2014
+https://pdfs.semanticscholar.org/1a6a/5b2be931799e1bf4b3d3e26d1b28446ff84f.pdf?_ga=2.43900261.1336379648.1556317383-327426060.1556317383
