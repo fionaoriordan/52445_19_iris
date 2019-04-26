@@ -1,5 +1,8 @@
 # Fiona O'Riordan 07 April 2019
-# # Adapted from https://www.machinelearningplus.com/plots/matplotlib-histogram-python-examples/
+# Project Iris Data Set
+# Create histograms for the Iris Data Set with each of the 3 classes distinguished by colour.
+# Adapted from:
+# https://www.machinelearningplus.com/plots/matplotlib-histogram-python-examples/ [17]
 
 # import sys library so that we can use function sys.argv
 import sys
