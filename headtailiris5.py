@@ -2,8 +2,8 @@
 # Project Iris Data Set
 # Show the Head and Tail rows of the  Iris Data Set
 # Adapted from:
-# https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
-# https://data36.com/pandas-tutorial-1-basics-reading-data-files-dataframes-data-selection/
+# https://machinelearningmastery.com/machine-learning-in-python-step-by-step/ [18]
+# https://data36.com/pandas-tutorial-1-basics-reading-data-files-dataframes-data-selection/[30]
 
 import pandas as pd
 # import sys library so that we can use function sys.argv 
