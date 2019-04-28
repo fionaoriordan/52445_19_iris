@@ -95,7 +95,8 @@ However, CMDER is strongly recommended here.  To install go to: https://cmder.ne
 1. [desciris.py](https://github.com/fionaoriordan/52445_19_iris/blob/master/desciris.py) describes the Iris Data Set by showing the count, mean, standard deviation, minimum, maximum and percentile values for each of the four attributes in the set.
 1. [histiris.py](https://github.com/fionaoriordan/52445_19_iris/blob/master/histiris.py) Create histograms for all 4 variables in the data set to showing an approximate frequency distribution of each of the quantitative variables in the set.
 1. [pairplotnohue.py](https://github.com/fionaoriordan/52445_19_iris/blob/master/pairplotnohue.py) generates scatterplots for all of the variable combinations in the iris data set coupled with histograms on the diagonal showing the distribution but does not use any class information in its representation.
-1. [histpetalclass.py](https://github.com/fionaoriordan/52445_19_iris/blob/master/histpetalclass.py) creates histograms for the Iris Data Set with each of the 3 classes distinguished by colour.
+1. [histpetalclass.py](https://github.com/fionaoriordan/52445_19_iris/blob/master/histpetalclass.py) creates histograms for the Iris Data Set with each of the 3 classes distinguished by colour. Note this script should be executed for each variable. Therefore, enter the py script name followed by the variable name when executing this script e.g.: 
+python histpetalclass.py 'petal-length' 
 1. [pairplot.py](https://github.com/fionaoriordan/52445_19_iris/blob/master/pairplotiris.py) generates scatterplots for all of the variable combinations in the iris data set and histograms on the diagonal showing the distribution of each variable individually  with the iris class 'species' represented by difference in color.
 
 
