@@ -52,12 +52,31 @@ Fisher's analysis was published in The Use of Multiple Measurements in Taxonomic
 
 The iris dataset is infamous in the computer science field of pattern recognition [10]. 'Pattern recognition is one of the four cornerstones of Computer Science. It involves finding the similarities or patterns among small, decomposed problems that can help us solve more complex problems more efficiently'[13]. Pattern recognition focuses on how a computer can be trained to read, interpret and distinguish between the differences of things and then categorize those things based on the patterns identified [31].
 
+
 ## **To Download the Iris Data Set**
 
 1. In your internet browser open https://archive.ics.uci.edu/ml/machine-learning-databases/iris/
 1. Click on iris.data and the data set will be saved to your Downloads folder.
 1. Save the file as iris.csv file.
+1. Alternatively, download the this repository [repository page 52445_19_iris](https://github.com/fionaoriordan/52445_19_iris) (as described in the Executing the python programs section below). The repository includes the iris set as iris.csv.
 1. Now open iris.csv in Excel (Windows) or Numbers(Mac)
+
+
+## **Prerequisites to executing the python programs**
+
+### 1. Launch your Command Line Interface
+1. For Mac users this is Terminal.  Click on the 'LaunchPad' icon in Dock. Click on the folder 'Other'. Click on 'Terminal' icon. Terminal interface is launched.
+1.  For Windows the default command line interface is Command Prompt. 
+However, CMDER is strongly recommended here.  To install go to: https://cmder.net
+1. For Linux users invoke Linux.  For more information please see:https://www.forbes.com/sites/jasonevangelho/2018/11/19/beginners-guide-how-to-install-ubuntu-linux-18-10/#73ebe78e787d
+
+### 2. Install Python  
+1. Go to :https://www.anaconda.com/distribution/#download-section 
+1. Click on Python 3.7 version 'Download' (using 64 bit option is preferable)
+1. Once the download has completed, click on the the Anaconda exe file in Downloads folder. 
+1. In the installer window click next and then accept all defaults except do check 'Add Anaconda to my PATH environment variables. Click install.  
+1. Launch your command line interface as per above. 
+1. At the prompt type 'Python --version' to verify the installation is complete and the version installed e.g. Python 3.7.2
 
 ## **Executing the python programs**
 1. In the [repository page 52445_19_iris](https://github.com/fionaoriordan/52445_19_iris) click on Download Zip ![download Zip](https://github.com/fionaoriordan/52445_19_iris/blob/master/download_iris_repository.png).
@@ -65,7 +84,7 @@ The iris dataset is infamous in the computer science field of pattern recognitio
 1. Launch your Command Line Interface.
 1. Open the Desktop directory with command: cd Desktop
 1. Open the folder 52445_19_iris with command: cd 52445_19_iris
-1. To run a script type python followed by the script name at the command line prompt e.g. python .py
+1. To run a script type python followed by the script name at the command line prompt e.g. python shapeiris.py
 
 ## **Repository Contents (Scripts) & description
 
