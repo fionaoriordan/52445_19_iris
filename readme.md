@@ -22,9 +22,9 @@ The project begins with background information on Fisher, the Iris Data Set Crea
 Sir Ronald A. Fisher (1890 - 1962) was a British mathematician, statistician, evolutionary biologist and geneticist. 
 >'R.A. Fisher's extraordinary contributions to statistical theory and methods, experimental design, scientific inference, evolutionary biology and genetics have had far-reaching consequences in many branches of human thought and endeavour'[4].
 
-However, Fisher is also unfortunately famously known for his deeply held belief and role in the Eugenics movement (Pfeiffer,1994) [5]. The term eugenic was devised by Francis Galton (1883)[6] to denote “well born” (cited in Shakespeare, 2008: 22) [7].  
+However, Fisher is also unfortunately famously known for his deeply held belief and prominent role in the Eugenics movement[5]. The term eugenic was devised by Francis Galton (1883)[6] to denote “well born”[7].  
 
-Proponents of eugenics believed that social advantage had a genetic hereditary basis. Society would benefit by ‘checking’ the reproduction of the ‘bad’, whilst promoting reproduction in the ‘good’ (Galton, 1869:41)[6].  Twentieth century actual implementations of eugenic thinking included forced sterilization in the US, UK and some Scandinavian countries (Kerr and Shakespeare, 2002, Barnes and Mercer, 2003)[8],[9].  The ultimate extreme of eugenic thinking was actualised in Nazi Germany when an estimated 250,000 disabled people and social undesirables were systematically murdered (Barnes and Mercer, 2003)[9].
+Proponents of eugenics believed that social advantage had a genetic hereditary basis. Society would benefit by ‘checking’ the reproduction of the ‘bad’, whilst promoting reproduction in the ‘good’[6].  Twentieth century actual implementations of eugenic thinking included forced sterilization in the US, UK and some Scandinavian countries [8],[9] and the systematic murder of an estimated 250,000 disabled people and other 'social undesirables' in Nazi Germany[9].
 
 So while we can acknowledge and benefit from Fisher's work as a statistician in this project, it is salient to remember science is neither created or used in a social or moral vacuum. 
 
